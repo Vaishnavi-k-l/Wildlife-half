@@ -1,0 +1,64 @@
+
+    <div class="outside-container">
+            <div class="container" >
+                <div class="first-container" *ngIf="mammals">
+        
+                    <div class="row">
+                        <div class="col col-md-6 col-sm-12">
+                            <img src='{{mammals.img}}'>
+                        </div>
+        
+                        <div class="col col-md-6 col-sm-12">
+                            <h2 class="font-weight-lighter keep-left">{{mammals.name}}</h2>
+                            <p class="section1-header-para keep-left">{{mammals.scientific_name}}</p>
+                        </div>
+                    </div>
+        
+                    <div class="border-container1">
+                        <div class="bordered-container-title">
+                            <p id="section1-para">DESCRIPTION</p>
+                        </div>
+                        <p class="para1">
+                           {{mammals.description}}
+                        </p>
+                    </div>
+        
+                    <div class="border-container">
+                        <div class="bordered-container-title">
+                            <p id="section1-para">RANGE</p>
+                        </div>
+                        <p class="para1">
+                            {{mammals.range}}
+                        </p>
+                        
+                    </div>
+        
+                    <div class="border-container">
+                        <div class="bordered-container-title">
+                            <p id="section1-para">DIET</p>
+                        </div>
+                        <p class="para1">
+                            {{mammals.diet}}</p>
+                    </div>
+        
+                    <div class="border-container">
+                        <div class="bordered-container-title">
+                            <p id="section1-para">BREEDING</p>
+                        </div>
+                        <p class="para1">
+                                {{mammals.breeding}}
+                        </p>
+                    </div>
+        
+        
+                    <div class="border-container">
+                        <div class="bordered-container-title">
+                            <p id="section1-para">CONSERVATION</p>
+                        </div>
+                        <p class="para1">
+                                {{mammals.conservation}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>

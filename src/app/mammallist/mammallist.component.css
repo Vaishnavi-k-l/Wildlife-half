@@ -1,0 +1,108 @@
+/*Margin for carasouls*/
+/* .margin-for-carasoul-birds
+{
+   margin: 0px 10px 60px 30px;
+} */
+
+/*Making the carasoul indicators rounded*/
+.carousel-indicators li {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+/*Introduction para*/
+p{
+    text-align: justify;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+img 
+{
+    width: 98%;
+    height: 90%;
+} 
+
+.cta-home-title {
+    background: #272b2d;
+    padding: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 98%;
+    height: 90%;
+}
+
+ .flush-box {
+    margin-top: 50px;
+    margin-bottom: 10px;
+} 
+
+.bordr{
+    border-top: 1px solid rgb(141, 150, 141);
+}
+
+.table-header {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.857em;
+    line-height: 1.5em;
+    margin: 30px 0px;
+
+}
+
+
+
+/*Left side table styling*/
+.left-table
+{
+    margin-top: 6%;
+    float: left;
+}
+
+
+.td{
+    padding: 3%;
+    text-align: center;
+    width:100%;
+    
+  }
+  .col-6:nth-child(odd)  {
+    background-color: rgb(223, 223, 240);
+}
+.col-6:nth-child(2n+2)  {
+    background-color: rgb(247, 238, 238);
+}
+
+
+
+/* 
+.right-table
+{
+    float: right;
+} */
+
+.table th, td {
+    padding: 15px;
+    text-align: center
+  }
+
+
+/* P tag for links*/
+.link-header
+{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 2em;
+    background-color: #eae9e9;
+    padding: 2%;
+}
+
+a{
+    color: #c36a2d;
+}

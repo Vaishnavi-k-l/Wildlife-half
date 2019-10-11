@@ -1,0 +1,162 @@
+.div-background
+{
+    /* background-image: url("/-/media/NEW-WEBSITE/Design/Section-Banners/banner_section_wildlife_guide_930x400.ashx"); */
+    background-image: url("E:\Wildlife\src\assets\images\deer.jpg");
+    background-size: auto;
+    
+    margin-top: 45px;
+    margin-bottom: 8%;
+    min-width: 100%;
+    min-height: 400px;
+    position: relative; 
+    background-repeat: no-repeat;
+}
+
+
+.interior-banner-overlay {
+    position: absolute;
+    background: rgba(0,0,0,.6);
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: 5rem;
+    text-align: left;
+    padding-bottom: 8%;
+    padding-left: 3%;
+}
+
+/*starting introduction content styling*/
+.intro 
+{
+    font-size: 1.857em;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: justify;
+    margin-bottom: 8%;
+}
+
+/* Fisrt section and it's subsection*/
+.section1
+{
+    width:100%;
+    min-height: 40em;;
+    background-color: #eae9e9;
+    text-align: center;
+    padding-left: 18%;
+    padding-top: 3.6em;
+   /*  margin: 0 auto; */
+
+}
+
+.section1a
+{
+    background-color: white;
+    padding: 25px;
+    overflow: auto;
+    position: relative;
+    width: 80%;
+    height: 33em;
+    
+    
+}
+
+.border-container
+{
+    border: solid 1px black;
+    /* padding: 30px; */
+    padding: 3%;
+}
+
+.bordered-container-title {
+     font-weight: 700;
+    color: #e6e4d8 !important;
+    font-size: 90%;
+    letter-spacing: 2px;
+    background: #272b2d;
+    padding: 1.5%;
+    text-align: center;
+    margin-bottom: 5%; 
+}
+
+#section1-para
+{
+    margin-top:3%;
+}
+
+.left-part
+{
+    text-align: left;
+}
+
+.section1-header-para
+{
+    padding-bottom: 2%;
+    font-style: italic;
+    color: grey;
+}
+
+.para1
+{
+    text-align: justify;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.25em;
+}
+
+/*Line stylies*/
+.lines {
+    background-color: black;
+    width: 32%;
+    height: 2px;
+    margin: 30px auto;
+}
+
+#india-wildlife
+{
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2em;
+}
+
+/*Cards*/
+.display-cards
+{
+    display: inline;
+}
+
+.img-resize
+{
+    height: 8rem;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+.read-more
+{
+    color: #c36a2d;
+}
+
+.section-card
+{
+    background-color: #eae9e9;
+}
+.card-styling
+{
+    margin: 2% 10%;
+    padding-top: 5%;
+}
+
+.types
+{
+    text-align: center;
+    font-size: 1em;
+}
+
+.left-padding
+{
+    padding-left: 10%;
+    /* align-content: center; */
+}
